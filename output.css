@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -575,10 +575,6 @@ video {
   margin-right: auto;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -640,14 +636,6 @@ video {
   width: 100%;
 }
 
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -670,6 +658,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -704,6 +696,36 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-t-md {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-b-2xl {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
 .bg-\[\#7832fe\] {
   --tw-bg-opacity: 1;
   background-color: rgb(120 50 254 / var(--tw-bg-opacity, 1));
@@ -714,36 +736,37 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-yellow-500 {
+.bg-\[\#F4EFEB\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+  background-color: rgb(244 239 235 / var(--tw-bg-opacity, 1));
 }
 
-.bg-red-500 {
+.bg-\[\#7832FE\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+  background-color: rgb(120 50 254 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\] {
   background-color: ;
 }
 
-.bg-\[F4\] {
-  background-color: F4;
-}
-
-.bg-\[F4EFEB\] {
-  background-color: F4EFEB;
-}
-
-.bg-slate-500 {
+.bg-\[\#021F3D\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
+  background-color: rgb(2 31 61 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
 }
 
 .object-cover {
@@ -775,6 +798,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -785,9 +813,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .text-center {
@@ -864,96 +892,24 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:m-2 {
-    margin: 0.5rem;
-  }
-
-  .xl\:m-28 {
-    margin: 7rem;
-  }
-
-  .xl\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .xl\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .xl\:mt-\[\] {
-    margin-top: ;
-  }
-
-  .xl\:mt-\[10rem\] {
-    margin-top: 10rem;
-  }
-
-  .xl\:mt-\[15rem\] {
-    margin-top: 15rem;
-  }
-
-  .xl\:ml-5 {
-    margin-left: 1.25rem;
-  }
-
-  .xl\:ml-16 {
-    margin-left: 4rem;
-  }
-
-  .xl\:ml-2 {
-    margin-left: 0.5rem;
+  .xl\:ml-20 {
+    margin-left: 5rem;
   }
 
   .xl\:ml-24 {
     margin-left: 6rem;
   }
 
-  .xl\:ml-14 {
-    margin-left: 3.5rem;
-  }
-
-  .xl\:ml-20 {
-    margin-left: 5rem;
-  }
-
-  .xl\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .xl\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .xl\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
-  .xl\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
-  .xl\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .xl\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .xl\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .xl\:mt-3 {
-    margin-top: 0.75rem;
+  .xl\:mt-20 {
+    margin-top: 5rem;
   }
 
   .xl\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .xl\:flex {
@@ -968,28 +924,20 @@ video {
     height: auto;
   }
 
-  .xl\:w-36 {
-    width: 9rem;
-  }
-
-  .xl\:w-full {
-    width: 100%;
-  }
-
-  .xl\:w-\[45rem\] {
-    width: 45rem;
-  }
-
   .xl\:w-12 {
     width: 3rem;
   }
 
-  .xl\:w-\[65rem\] {
-    width: 65rem;
+  .xl\:w-36 {
+    width: 9rem;
   }
 
   .xl\:w-\[80rem\] {
     width: 80rem;
+  }
+
+  .xl\:w-full {
+    width: 100%;
   }
 
   .xl\:max-w-full {
@@ -1000,24 +948,8 @@ video {
     flex-direction: row;
   }
 
-  .xl\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .xl\:items-start {
     align-items: flex-start;
-  }
-
-  .xl\:items-center {
-    align-items: center;
-  }
-
-  .xl\:items-baseline {
-    align-items: baseline;
-  }
-
-  .xl\:justify-start {
-    justify-content: flex-start;
   }
 
   .xl\:justify-around {
@@ -1028,24 +960,12 @@ video {
     gap: 3.5rem;
   }
 
-  .xl\:gap-\[60rem\] {
-    gap: 60rem;
-  }
-
-  .xl\:gap-10 {
-    gap: 2.5rem;
-  }
-
-  .xl\:gap-12 {
-    gap: 3rem;
-  }
-
   .xl\:gap-4 {
     gap: 1rem;
   }
 
-  .xl\:self-start {
-    align-self: flex-start;
+  .xl\:gap-\[60rem\] {
+    gap: 60rem;
   }
 
   .xl\:object-contain {
@@ -1068,21 +988,6 @@ video {
     padding-bottom: 1.25rem;
   }
 
-  .xl\:py-\[15rem\] {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
-  }
-
-  .xl\:py-\[10rem\] {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .xl\:py-\[5rem\] {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1093,26 +998,12 @@ video {
     line-height: 2.25rem;
   }
 
-  .xl\:text-\[8rem\] {
-    font-size: 8rem;
-  }
-
-  .xl\:text-\[4rem\] {
-    font-size: 4rem;
-  }
-
   .xl\:text-\[5rem\] {
     font-size: 5rem;
   }
 
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .xl\:text-\[8rem\] {
+    font-size: 8rem;
   }
 
   .xl\:font-light {
@@ -1125,15 +1016,5 @@ video {
 
   .xl\:leading-\[8rem\] {
     line-height: 8rem;
-  }
-
-  .xl\:text-\[\] {
-    color: ;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:self-center {
-    align-self: center;
   }
 }
