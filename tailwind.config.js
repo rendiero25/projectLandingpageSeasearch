@@ -7,7 +7,11 @@ module.exports = {
     fontFamily: {
       "primary" : ["Lexend", "sans-serif"]
     },
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1920px',
+      },
+    },
   },
   plugins: [],
 }

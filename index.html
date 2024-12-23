@@ -20,31 +20,31 @@
 </head>
 <body class="m-0 p-0 box-border font-primary">
     <header class="bg-white h-20 relative z-20 xl:mt-5 xl:px-20">
-        <div class="max-w-7xl xl:max-w-full mx-auto px-4">
+        <div class="max-w-full mx-auto px-4">
             <div class="flex justify-center h-16 xl:w-full">
                 <div class="w-full flex flex-row justify-between items-center mt-5 gap-24">
-                    <div class="xl:w-full xl:flex xl:flex-row xl:justify-around xl:gap-[60rem]">
+                    <div class="xl:w-full xl:flex xl:flex-row xl:justify-around xl:gap-20 2xl:gap-[30rem]">
                         <!-- logo -->
                         <img src="./images/sea.rch.png" alt="logoSeaSearch" class="w-32 xl:w-36 xl:object-contain">
                         
                         <!-- Link website -->
                         <section class="hidden xl:flex">
-                            <div class="flex flex-row items-center gap-8">
-                                <div class="xl:flex gap-8">
-                                    <a href="#service" class="font-md text-md">Service</a>
-                                    <a href="#industries" class="font-md text-md">Industries</a>
-                                    <a href="#usecases" class="font-md text-md">Use Cases</a>
-                                    <a href="#aboutus" class="font-md text-md">About Us</a>
+                            <div class="flex flex-row items-center gap-10">
+                                <div class="xl:flex w-full gap-12">
+                                    <a href="#service" class="font-md text-md xl:text-xl ">Service</a>
+                                    <a href="#industries" class="font-md text-md xl:text-xl">Industries</a>
+                                    <a href="#usecases" class="font-md text-md xl:text-xl">Use&nbsp;Cases</a>
+                                    <a href="#aboutus" class="font-md text-md xl:text-xl">About&nbsp;Us</a>
                                 </div>
-                                <button class="bg-[#7832fe] text-white font-bold text-lg py-3 px-10 rounded-full">
-                                    <a href="mailto:hello@seasearch.asia" class="">Get Started</a>
+                                <button class="bg-[#7832fe] text-white font-bold text-lg py-3 xl:py-4 px-10 xl:px-10 rounded-full">
+                                    <a href="mailto:hello@seasearch.asia" class="">Get&nbsp;Started</a>
                                 </button>
                             </div>
                         </section>
                     </div>
                     
                      <!-- Mobile menu button -->
-                    <div class="flex items-center sm:mr-5 xl:hidden">
+                    <div class="flex items-center sm:mr-5 lg:mr-0 xl:hidden">
                         <button id="menu-button" class="focus:outline-none">
                             <i class="fa-solid fa-bars fa-2xl" style="color: #7832fe"></i>
                         </button>
@@ -68,13 +68,14 @@
             </div>
         </section>
     </header>
-    <main class="flex flex-col xl:mt-5">
+
+    <main class="flex flex-col xl:mt-10 xl:w-full">
         <!-- Hero section START-->
-        <section class="flex w-full">
-            <div class="absolute h-[29rem] xl:h-auto bg-blue-500">
+        <section class="flex w-full xl:w-screen bg-blue-500">
+            <div class="absolute h-[29rem] lg:h-[35rem] xl:h-[60rem] xl:w-full bg-yellow-500">
                 <img src="./images/hero-bg.jpg" alt="hero-bgpic" class="object-cover h-full w-full">
             </div>
-            <div class="relative flex flex-col justify-center items-center py-5 px-3 gap-4 xl:gap-14 mt-6 sm:mt-12 xl:mt-20 w-full">
+            <div class="relative flex flex-col justify-center items-center py-5 2xl:pt-24 px-3 gap-4 xl:gap-14 mt-6 sm:mt-12 lg:mt-20 xl:mt-12 w-full">
                 <p class="text-white text-center font-bold text-4xl sm:text-5xl xl:text-[8rem] xl:leading-[8rem]">Unlock Southeast <br>Asia's Potential with <br> <span class="text-[#B893FF]">a Trusted Partner</span></p>
                 <p class="text-white text-xs sm:text-sm xl:text-3xl text-center xl:font-light leading-normal xl:leading-[3rem]">Sea Search is your partner in navigating Southeast Asia's business landscape, <br> from building teams to setting up operations</p>
                 <div class="flex flex-col xl:flex-row gap-4">
@@ -91,8 +92,8 @@
         <!-- Hero section END-->
 
         <!-- Section What we do START-->
-        <section id="service" class="flex flex-col xl:flex-row justify-center items-center py-16 gap-4 xl:mt-32">
-            <div class="flex flex-col justify-center items-start gap-4 xl:gap-14 px-4 sm:mt-12 xl:ml-20">
+        <section id="service" class="flex flex-col xl:flex-row justify-center items-center py-16 2xl:pt-[9rem] 3xl:pt-[11rem] gap-4 lg:mt-16 xl:my-20">
+            <div class="flex flex-col justify-center items-start gap-4 pt-4 xl:gap-14 px-4 sm:mt-12 xl:ml-20">
                 <p class="font-bold text-2xl xl:text-[5rem]">What <span class="text-[#7832fe]">we do</span></p>
                 <div class="flex flex-row justify-center items-center xl:items-start gap-4">
                     <img src="./images/Frame24.png" alt="iconLamp" class="w-10 xl:w-12">
@@ -121,19 +122,22 @@
                 <div class="flex flex-col items-start gap-4 xl:gap-8">
                     <p class="font-bold text-2xl xl:text-[5rem] xl:leading-[5rem]">Expertise <br><span class="text-[#7832fe]">you can trust</span></p>
                     <p class="xl:hidden font-normal xl:text-2xl">Our founders bring hands-on experience in building and scaling successfull businesses. From raising funds to expanding globally, they know what it takes to help you thrive in SEA. Why you're in good hands:</p>
-                    <p class="hidden xl:flex font-normal xl:text-2xl">Our founders bring hands-on experience in building <br> and scaling successfull businesses. From raising funds <br> to expanding globally, they know what it takes to help <br> you thrive in SEA. Why you're in good hands:</p>
+                    <p class="hidden xl:flex 2xl:hidden font-normal xl:text-2xl">Our founders bring hands-on experience in building <br> and scaling successfull businesses. From raising funds <br> to expanding globally, they know what it takes to help <br> you thrive in SEA. Why you're in good hands:</p>
+                    <p class="hidden 2xl:flex font-normal xl:text-2xl">Our founders bring hands-on experience in <br> building and scaling successfull businesses. <br> From raising funds to expanding globally, <br> they know what it takes to help you thrive <br> in SEA. Why you're in good hands:</p>
                 </div>
                 <div class="flex flex-col items-start xl:items-center justify-center bg-[#7832FE] bg-opacity-10 rounded-t-2xl p-5 xl:pb-32 xl:pt-10 xl:px-10 gap-4">
                     <p class="text-xl xl:text-4xl font-bold">Insider Knowledge</p>
                     <p class="xl:hidden font-light xl:text-xl">With firsthand experience in hiring, team-building, and managing cross-functional teams, we know what it takes to succeed in SEA and beyond.</p>
-                    <p class="hidden xl:flex font-light xl:text-xl">With firsthand experience in hiring, team-building, <br> and managing cross-functional teams, we know <br> what it takes to succeed in SEA and beyond.</p>
+                    <p class="hidden xl:flex 2xl:hidden font-light xl:text-xl">With firsthand experience in hiring, team-building, <br> and managing cross-functional teams, we know <br> what it takes to succeed in SEA and beyond.</p>
+                    <p class="hidden 2xl:flex font-light xl:text-xl">With firsthand experience in hiring, team-building, <br> and managing cross-functional teams, we know what it takes to succeed in SEA and beyond.</p>
                 </div>
             </div>
             <div class="flex flex-col justify-center xl:justify-start items-center gap-4 xl:mr-0 ">
                 <div class="bg-[#021F3D] rounded-b-3xl items-start justify-center p-5 xl:pt-32 mx-5 xl:pb-10 xl:px-10">
                     <p class="font-bold text-xl xl:text-4xl xl:leading-normal text-white mb-5">Strategic <br> Vision</p>
                     <p class="xl:hidden text-white font-light xl:text-xl xl:leading-normal">With a combine experience of more than 20 years in Executive Search within Top Search firms in Singapore, we possess a deep understanding of multiple Industries.</p>
-                    <p class="hidden xl:flex text-white font-light xl:text-xl xl:leading-normal">With a combine experience of more than 20 years in Executive Search within Top Search <br> firms in Singapore, we possess a deep understanding of multiple Industries.</p>
+                    <p class="hidden xl:flex 2xl:hidden text-white font-light xl:text-xl xl:leading-normal">With a combine experience of more than 20 years in Executive Search within Top Search <br> firms in Singapore, we possess a deep understanding of multiple Industries.</p>
+                    <p class="hidden 2xl:flex text-white font-light xl:text-xl xl:leading-normal">With a combine experience of more than 20 years <br> in Executive Search within Top Search firms in Singapore, <br> we possess a deep understanding of multiple Industries.</p>
                 </div>
                 <div class="bg-[#7832FE] flex flex-col items-start justify-center rounded-l-3xl p-5 xl:pr-20 xl:pl-10 xl:py-10 gap-4 ml-5">
                     <p class="font-bold text-white text-xl xl:text-4xl">Proven Expertise</p>
@@ -151,7 +155,7 @@
                 <p class="text-2xl text-[#7832FE] xl:text-[5rem] font-bold">Public cheers for us</p>
                 <p class="xl:text-2xl font-normal">Hear from our satisfied clients have to say</p>
             </div>
-            <div class="flex flex-col justify-center items-center gap-4">
+            <div class="flex flex-col justify-center items-center gap-4 xl:pr-4">
                 <div class="flex flex-col xl:flex-row gap-4">
                     <div class="bg-[#7832FE] bg-opacity-10 rounded-xl p-5 flex flex-col gap-4">
                         <p class="xl:hidden font-normal">"One of the best headhunters I've ever worked with. Totally impressed, thoughtful, genuine, and very helpful"</p>
@@ -288,7 +292,7 @@
                             </div>
                         </div>
 
-                        <!-- Desktop versio -->
+                        <!-- Desktop version -->
                         <div class="hidden xl:flex flex-row justify-center items-center gap-8 mt-16">
                             <div class="flex flex-col justify-center items-start gap-8">
                                 <div class="flex flex-row justify-center items-center gap-8">
@@ -336,10 +340,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -348,27 +348,27 @@
         <!-- Expansion to sea END -->
 
         <!-- Our promises START -->
-        <section id="aboutus" class="flex flex-col justify-center items-center px-5 pt-10 pb-0 xl:pt-32 xl:z-30 gap-4 xl:gap-12">
+        <section id="aboutus" class="flex flex-col justify-center items-center px-5 pt-10 xl:pt-0 pb-0 xl:z-30 gap-4 xl:gap-12">
             <div class="flex flex-col justify-center items-center gap-4 xl:gap-12 xl:px-16">
                 <p class="font-bold text-2xl xl:text-[5rem]">Our <span class="text-[#7832FE]">Promises</span></p>
                 <p class="xl:hidden font-normal text-center xl:text-2xl xl:leading-normal">At Sea Search, we believe in building lasting partnerships by delivering the right talent. That's why we stand behind our service with these simple guarantees to ensure your success and peace of mind.</p>
                 <p class="hidden xl:flex font-normal text-center xl:text-2xl xl:leading-normal">At Sea Search, we believe in building lasting partnerships by delivering <br> the right talent. That's why we stand behind our service with these <br> simple guarantees to ensure your success and peace of mind.</p>
             </div>
-            <div class="flex flex-col xl:flex-row justify-center items-center xl:gap-8 xl:px-16">
-                <div class="bg-[#7832FE] bg-opacity-10 rounded-full size-[20rem] xl:size-[35rem] flex flex-col gap-4 justify-center items-center overflow-hidden">
+            <div class="flex flex-col xl:flex-row justify-center items-center xl:gap-8">
+                <div class="bg-[#7832FE] bg-opacity-10 rounded-full size-[20rem] xl:size-[25rem] flex flex-col gap-4 justify-center items-center overflow-hidden">
                     <p class="font-bold text-2xl xl:text-5xl text-center xl:leading-tight">Fit or Fix in <br> 90 days</p>
                     <p class="font-normal text-center text-xl">If the talent's not right, we'll <br> replace them at no extra cost <br> --easy peasy!</p>
                 </div>
-                <div class="-mt-10 xl:mt-0 xl:-ml-20 border-4 border-[#7832FE] bg-white rounded-full size-[20rem] xl:size-[35rem] py-20 xl:py-0 flex flex-col gap-4 justify-center items-center overflow-hidden">
+                <div class="-mt-10 xl:mt-0 xl:-ml-20 border-4 border-[#7832FE] bg-white rounded-full size-[20rem] xl:size-[25rem] py-20 xl:py-0 flex flex-col gap-4 justify-center items-center overflow-hidden">
                     <p class="font-bold text-2xl xl:text-5xl text-center xl:leading-tight">No Poach <br> Policy</p>
                     <p class="font-normal text-center text-xl"">Our focus is on helpin you <br> succeed. We promise never to <br> steal back the talent we find <br> for you.</p>
                 </div>
-                <div class="-mt-10 xl:mt-0 xl:-ml-20 bg-[#7832FE] bg-opacity-10 rounded-full size-[20rem] xl:size-[35rem] xl:pt-30 xl:pb-0 flex flex-col gap-4 justify-center items-center -z-10 overflow-hidden">
+                <div class="-mt-10 xl:mt-0 xl:-ml-20 bg-[#7832FE] bg-opacity-10 rounded-full size-[20rem] xl:size-[25rem] xl:pt-30 xl:pb-0 flex flex-col gap-4 justify-center items-center -z-10 overflow-hidden">
                     <p class="font-bold text-2xl xl:text-5xl text-center xl:leading-tight">Speedy <br> Search</p>
                     <p class="font-normal text-center text-xl">Top talent delivered in <br> <span class="font-bold">14 days or less, </span> allowing you <br> to focus on what matters-- <br> growing your business.</p>
                 </div>
             </div>
-            <div class="absolute hidden xl:flex bg-white h-[5rem] w-full mt-[46rem]">
+            <div class="absolute hidden xl:flex bg-white h-[5rem] w-full mt-[40rem]">
                 <div class="">
                     <div class="relative"></div>
                 </div>
@@ -433,7 +433,7 @@
 
     </main>
 
-    <footer class="bg-[#2A083C] flex flex-col xl:flex-row justify-center xl:justify-evenly items-center p-7 xl:py-14 xl:px-16 gap-7 xl:gap-[82rem]">
+    <footer class="bg-[#2A083C] flex flex-col xl:flex-row justify-center xl:justify-evenly items-center p-7 xl:py-14 xl:px-16 gap-7 xl:gap-[41rem] 3xl:gap-[80rem]">
         <div class="text-center xl:flex xl:flex-col xl:items-start xl:justify-center">
             <p class="font-bold text-white mb-3 text-xl">Get in touch</p>
             <div class="xl:flex xl:flex-row xl:gap-10">
